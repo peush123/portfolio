@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peush Kumar Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Peush Kumar</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="button">Home</a></li>
+                <li><a href="#skills" class="button">Skills</a></li>
+                <li><a href="#projects" class="button">Projects</a></li>
+                <li><a href="#contact" class="button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="intro">
+                <p class="greeting">Hi There 👋 I'm</p>
+                <h1>Peush Kumar</h1>
+                <p class="role">Software Developer</p>
+                <p class="description">I am proficient in multiple programming languages and software development methodologies and Microsoft Office. I carry strong problem-solving skills and the ability to work effectively in a team-based environment.</p>
+                <a href="#contact" class="hire-me">Hire Me</a>
+            </div>
+            <div class="avatar">
+                <img src="C:\Users\pkspi\Downloads\Peush.jpg" alt="Peush Kumar">
+            </div>
+        </section>
+
+        <!-- Download PDF Section -->
+        <section class="download">
+            <h2>Download My Resume</h2>
+            <a href="C:\Users\pkspi\Downloads\PeushResume.pdf" download="Peush_Kumar_Resume.pdf" class="download-btn">Download PDF</a>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2>My Skills</h2>
+            <p>JAVA<br>
+                JavaScript<br>
+                Python<br>
+                HTML<br>
+                CSS<br>
+                BootStrap<br>
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3> LINE FOLLOWING CAR</h3>
+                    <p> Project was guided by Mr.Manohar Singh, Assistant Professor at University of Delhi.<br>
+                        We created a black line following car using Arduino UNO and IR sensors.<br>
+                        Car was programmed using C Programming language.<br>
+                        Project was presented to NIRF team visit at Rajdhani College.</p>
+                </div>
+                <div class="project">
+                    <h3> THE VIRUS DETECTOR</h3>
+                    <p> Project was guided by Ms.Deepti Arora, Assistant Professor at AKGEC.<br>
+                        Virus detector was programmed using Python Language.</p>
+                </div>
+                
+                <div class="project">
+                    <h3> OBJECT DETECTOR</h3>
+                    <p> Project was guided by Ms. Saroj Bala, Associate Professor at AKGEC.<br>
+                        Object detector was programmed using Deep Neural Network with OpenCV and Python.</p>
+                </div>
+                <div class="project">
+                    <h3>  CALCULATOR (Mini Project)</h3>
+                    <p>Calculator was programmed using JavaScript, HTML, and CSS</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:pks.piyushks@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

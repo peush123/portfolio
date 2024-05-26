@@ -1,0 +1,213 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #00ffcc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Main content styling */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.intro {
+    max-width: 500px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.role {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.hire-me {
+    padding: 15px 30px;
+    background-color: #00ffcc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.avatar img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Download Section Styling */
+.download {
+    padding: 50px 100px;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.download h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    padding: 15px 30px;
+    background-color: #00ffcc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Skills Section Styling */
+.skills {
+    padding: 50px 100px;
+    background-color: #1a1a1a;
+}
+
+.skills h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Projects Section Styling */
+.projects {
+    padding: 50px 100px;
+    background-color: #1a1a1a;
+}
+
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Contact Section Styling */
+.contact {
+    padding: 50px 100px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.contact .send-btn {
+    padding: 15px 30px;
+    background-color: #00ffcc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
